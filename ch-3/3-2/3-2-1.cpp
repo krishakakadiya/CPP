@@ -38,25 +38,31 @@ class hotel
     }
     void outputofhotel()
     {
-        cout<<"ID:"
-            <<"NAME:"
-            <<"TYPE:"
-            <<"RATING:"
-            <<"LOCATION:"
+        cout<<"ID:"<<this->hotel_id<<endl
+            <<"NAME:"<<this->hotel_name<<endl
+            <<"TYPE:"<<this->hotel_type<<endl
+            <<"RATING:"<<this->hotel_rating<<endl
+            <<"LOCATION:"<<this->hotel_location<<endl
             <<"ESTABLISHED YEAR:"<<this->hotel_established_year<<endl
             <<"STAFF QUANTITY:"<<this->hotel_staff_quantity<<endl
             <<"ROOM QUANTITY:"<< this->hotel_room_quantity<<endl;
     }
 
 };
-char hotel::hotel_name[20]="High-Sky Abode";
+char hotel::hotel_name[20]="High-Sky";
 
 int main()
 {
-    int n;
+    int n,i;
     cout <<"enter number of hotels:";
     cin>>n;
     hotel h[n];
-
-
+    for(i=0;i<n;i++)
+    {
+        h[i].inputofhotels();
+    }
+        for(i=0;i<n;i++)
+    {
+        h[i].outputofhotel();
+    }
 }
