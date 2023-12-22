@@ -54,7 +54,7 @@ public:
     {
         cout << "NAME:" << name << endl;
         cout << "ROLE:" << role << endl;
-        cout << "SALARY:" << salary << endl;
+        cout << "SALARY:" << salary << endl<<endl;
     }
 };
 
@@ -71,7 +71,7 @@ public:
     }
     void outputD()
     {
-        cout << "ID:" << id << endl
+        cout <<endl<< "ID:" << id << endl
              << "NAME:" << name << endl
              << "ROLE:" << role << endl
              << "SALARY:" << salary << endl
