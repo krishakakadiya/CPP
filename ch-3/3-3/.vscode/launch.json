@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/flutter/c++ language/pr-2",
-      "program": "d:/flutter/c++ language/pr-2/build/Debug/outDebug",
+      "cwd": "d:/flutter/c++ language/ch-3/3-3",
+      "program": "d:/flutter/c++ language/ch-3/3-3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
